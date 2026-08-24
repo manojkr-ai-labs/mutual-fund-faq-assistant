@@ -8,7 +8,9 @@ import {
 export const dynamic = "force-dynamic";
 export const maxDuration = 60;
 
-const ASK_API_ORIGIN = process.env.ASK_API_ORIGIN ?? "http://127.0.0.1:8000";
+const ASK_API_ORIGIN = (
+  process.env.ASK_API_ORIGIN ?? "http://127.0.0.1:8000"
+).replace(/\/+$/, "");
 
 const UNAVAILABLE = {
   type: "error",

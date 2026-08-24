@@ -7,10 +7,13 @@ watchPatterns = [
   "pyproject.toml",
   "requirements.txt",
   "railway.toml",
+  "nixpacks.toml",
+  ".python-version",
 ]
 
 [deploy]
-startCommand = "uvicorn app.api:app --host 0.0.0.0 --port $PORT"
+# Wrap in sh -c so Railway expands $PORT (a literal "$PORT" crashes Uvicorn).
+startCommand = "sh -c 'uvicorn app.api:app --host 0.0.0.0 --port $PORT'"
 healthcheckPath = "/health"
 healthcheckTimeout = 30
 restartPolicyType = "ON_FAILURE"
