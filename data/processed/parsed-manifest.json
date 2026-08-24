@@ -1,0 +1,158 @@
+{
+  "parsed_on": "2026-08-23",
+  "publisher": "groww",
+  "document_count": 10,
+  "scheme_ids": [
+    "hdfc-mid-cap-direct-growth",
+    "hdfc-small-cap-direct-growth",
+    "hdfc-gold-etf-fof-direct-growth",
+    "hdfc-large-cap-direct-growth",
+    "hdfc-elss-tax-saver-direct-growth"
+  ],
+  "documents": [
+    {
+      "source_id": "hdfc-mid-cap-direct-growth",
+      "doc_type": "scheme_page",
+      "scheme_id": "hdfc-mid-cap-direct-growth",
+      "source_url": "https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth",
+      "as_of": "2026-08-21",
+      "fact_types": [
+        "benchmark",
+        "exit_load",
+        "expense_ratio",
+        "riskometer",
+        "sip"
+      ],
+      "parsed_path": "data/processed/parsed/hdfc-mid-cap-direct-growth.json",
+      "text_chars": 271
+    },
+    {
+      "source_id": "hdfc-small-cap-direct-growth",
+      "doc_type": "scheme_page",
+      "scheme_id": "hdfc-small-cap-direct-growth",
+      "source_url": "https://groww.in/mutual-funds/hdfc-small-cap-fund-direct-growth",
+      "as_of": "2026-08-21",
+      "fact_types": [
+        "benchmark",
+        "exit_load",
+        "expense_ratio",
+        "riskometer",
+        "sip"
+      ],
+      "parsed_path": "data/processed/parsed/hdfc-small-cap-direct-growth.json",
+      "text_chars": 273
+    },
+    {
+      "source_id": "hdfc-gold-etf-fof-direct-growth",
+      "doc_type": "scheme_page",
+      "scheme_id": "hdfc-gold-etf-fof-direct-growth",
+      "source_url": "https://groww.in/mutual-funds/hdfc-gold-etf-fund-of-fund-direct-plan-growth",
+      "as_of": "2026-08-21",
+      "fact_types": [
+        "benchmark",
+        "exit_load",
+        "expense_ratio",
+        "riskometer",
+        "sip"
+      ],
+      "parsed_path": "data/processed/parsed/hdfc-gold-etf-fof-direct-growth.json",
+      "text_chars": 261
+    },
+    {
+      "source_id": "hdfc-large-cap-direct-growth",
+      "doc_type": "scheme_page",
+      "scheme_id": "hdfc-large-cap-direct-growth",
+      "source_url": "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth",
+      "as_of": "2026-08-21",
+      "fact_types": [
+        "benchmark",
+        "exit_load",
+        "expense_ratio",
+        "riskometer",
+        "sip"
+      ],
+      "parsed_path": "data/processed/parsed/hdfc-large-cap-direct-growth.json",
+      "text_chars": 265
+    },
+    {
+      "source_id": "hdfc-elss-tax-saver-direct-growth",
+      "doc_type": "scheme_page",
+      "scheme_id": "hdfc-elss-tax-saver-direct-growth",
+      "source_url": "https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth",
+      "as_of": "2026-08-21",
+      "fact_types": [
+        "benchmark",
+        "exit_load",
+        "expense_ratio",
+        "lockin",
+        "riskometer",
+        "sip"
+      ],
+      "parsed_path": "data/processed/parsed/hdfc-elss-tax-saver-direct-growth.json",
+      "text_chars": 270
+    },
+    {
+      "source_id": "groww-types-of-mutual-funds",
+      "doc_type": "education",
+      "scheme_id": null,
+      "source_url": "https://groww.in/p/types-of-mutual-funds",
+      "as_of": "2026-08-23",
+      "fact_types": [
+        "education"
+      ],
+      "parsed_path": "data/processed/parsed/groww-types-of-mutual-funds.json",
+      "text_chars": 18386
+    },
+    {
+      "source_id": "groww-mutual-funds-hub",
+      "doc_type": "education",
+      "scheme_id": null,
+      "source_url": "https://groww.in/mutual-funds",
+      "as_of": "2026-08-23",
+      "fact_types": [
+        "education"
+      ],
+      "parsed_path": "data/processed/parsed/groww-mutual-funds-hub.json",
+      "text_chars": 18
+    },
+    {
+      "source_id": "groww-capital-gains-report",
+      "doc_type": "process",
+      "scheme_id": null,
+      "source_url": "https://groww.in/help/mutual-funds/mf-others/how-to-download-capital-gain-report--50",
+      "as_of": "2026-08-23",
+      "fact_types": [
+        "process",
+        "capital_gains"
+      ],
+      "parsed_path": "data/processed/parsed/groww-capital-gains-report.json",
+      "text_chars": 174
+    },
+    {
+      "source_id": "groww-transaction-history",
+      "doc_type": "process",
+      "scheme_id": null,
+      "source_url": "https://groww.in/help/my-account/ma-others/where-can-i-get-the-transaction-history",
+      "as_of": "2026-08-23",
+      "fact_types": [
+        "process",
+        "statement"
+      ],
+      "parsed_path": "data/processed/parsed/groww-transaction-history.json",
+      "text_chars": 714
+    },
+    {
+      "source_id": "groww-elss-tax-statement",
+      "doc_type": "process",
+      "scheme_id": null,
+      "source_url": "https://groww.in/help/mutual-funds/order/how-to-download-tax-statement--for-elss--77",
+      "as_of": "2026-08-23",
+      "fact_types": [
+        "process",
+        "elss_statement"
+      ],
+      "parsed_path": "data/processed/parsed/groww-elss-tax-statement.json",
+      "text_chars": 671
+    }
+  ]
+}

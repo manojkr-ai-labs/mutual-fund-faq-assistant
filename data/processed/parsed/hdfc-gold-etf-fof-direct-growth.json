@@ -1,0 +1,82 @@
+{
+  "source_id": "hdfc-gold-etf-fof-direct-growth",
+  "doc_type": "scheme_page",
+  "publisher": "groww",
+  "source_url": "https://groww.in/mutual-funds/hdfc-gold-etf-fund-of-fund-direct-plan-growth",
+  "local_path": "data/raw/schemes/hdfc-gold-etf-fof-direct-growth.html",
+  "as_of": "2026-08-21",
+  "retrieved_on": "2026-08-23",
+  "title": "HDFC Gold ETF Fund of Fund — Direct Plan Growth",
+  "scheme_id": "hdfc-gold-etf-fof-direct-growth",
+  "scheme_name": "HDFC Gold ETF Fund of Fund — Direct Plan Growth",
+  "category": "gold-etf-fof",
+  "plan": "direct",
+  "option": "growth",
+  "fact_types": [
+    "benchmark",
+    "exit_load",
+    "expense_ratio",
+    "riskometer",
+    "sip"
+  ],
+  "facts": {
+    "expense_ratio": "0.2",
+    "exit_load": "Exit load of 1%, if redeemed within 15 days.",
+    "min_sip_investment": 100,
+    "min_investment_amount": 100,
+    "riskometer": "High",
+    "benchmark": "Domestic Price of Gold",
+    "lock_in": null,
+    "lock_in_raw": {
+      "years": null,
+      "months": null,
+      "days": null
+    },
+    "fund_house": "HDFC Mutual Fund",
+    "groww_category": "Gold",
+    "description": "The Scheme seeks to generate capital appreciation by investing in units of HDFC Gold Exchange Traded Fund."
+  },
+  "sections": [
+    {
+      "heading": "Expense ratio",
+      "fact_types": [
+        "expense_ratio"
+      ],
+      "text": "Expense ratio: 0.2"
+    },
+    {
+      "heading": "Exit load",
+      "fact_types": [
+        "exit_load"
+      ],
+      "text": "Exit load: Exit load of 1%, if redeemed within 15 days."
+    },
+    {
+      "heading": "Minimum SIP",
+      "fact_types": [
+        "sip"
+      ],
+      "text": "Minimum SIP amount: 100"
+    },
+    {
+      "heading": "Riskometer",
+      "fact_types": [
+        "riskometer"
+      ],
+      "text": "Riskometer: High"
+    },
+    {
+      "heading": "Benchmark",
+      "fact_types": [
+        "benchmark"
+      ],
+      "text": "Benchmark: Domestic Price of Gold"
+    },
+    {
+      "heading": "Investment objective",
+      "fact_types": [],
+      "text": "The Scheme seeks to generate capital appreciation by investing in units of HDFC Gold Exchange Traded Fund."
+    }
+  ],
+  "text": "Expense ratio: 0.2\n\nExit load: Exit load of 1%, if redeemed within 15 days.\n\nMinimum SIP amount: 100\n\nRiskometer: High\n\nBenchmark: Domestic Price of Gold\n\nThe Scheme seeks to generate capital appreciation by investing in units of HDFC Gold Exchange Traded Fund."
+}

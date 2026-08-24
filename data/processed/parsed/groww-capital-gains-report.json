@@ -1,0 +1,31 @@
+{
+  "source_id": "groww-capital-gains-report",
+  "doc_type": "process",
+  "publisher": "groww",
+  "source_url": "https://groww.in/help/mutual-funds/mf-others/how-to-download-capital-gain-report--50",
+  "local_path": "data/raw/process/how-to-download-capital-gain-report.html",
+  "as_of": "2026-08-23",
+  "retrieved_on": "2026-08-23",
+  "title": "How to download capital gain report",
+  "scheme_id": null,
+  "scheme_name": null,
+  "category": null,
+  "plan": null,
+  "option": null,
+  "fact_types": [
+    "process",
+    "capital_gains"
+  ],
+  "facts": {},
+  "sections": [
+    {
+      "heading": "Process",
+      "fact_types": [
+        "process",
+        "capital_gains"
+      ],
+      "text": "How to download capital gain report\n\nGroww help page: https://groww.in/help/mutual-funds/mf-others/how-to-download-capital-gain-report--50\n\nCustomer Support\n\nHelp and Support"
+    }
+  ],
+  "text": "How to download capital gain report\n\nGroww help page: https://groww.in/help/mutual-funds/mf-others/how-to-download-capital-gain-report--50\n\nCustomer Support\n\nHelp and Support"
+}

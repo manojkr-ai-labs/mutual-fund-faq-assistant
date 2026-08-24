@@ -1,0 +1,31 @@
+{
+  "source_id": "groww-transaction-history",
+  "doc_type": "process",
+  "publisher": "groww",
+  "source_url": "https://groww.in/help/my-account/ma-others/where-can-i-get-the-transaction-history",
+  "local_path": "data/raw/process/transaction-history.html",
+  "as_of": "2026-08-23",
+  "retrieved_on": "2026-08-23",
+  "title": "Where can I get the transaction history",
+  "scheme_id": null,
+  "scheme_name": null,
+  "category": null,
+  "plan": null,
+  "option": null,
+  "fact_types": [
+    "process",
+    "statement"
+  ],
+  "facts": {},
+  "sections": [
+    {
+      "heading": "Process",
+      "fact_types": [
+        "process",
+        "statement"
+      ],
+      "text": "Where can I get the transaction history\n\nGroww help page: https://groww.in/help/my-account/ma-others/where-can-i-get-the-transaction-history\n\nWhere can I get the transaction history? | Groww\n\nCustomer Support\n\nHelp and Support\n\nWhere can I get the transaction history?\n\nYou can request your transaction history/order history in the 'Reports' section of your profile.\n\nSteps to request your Transaction/Order History:\n\nGo to your profile.\n\nSelect the 'Reports' option.\n\nUnder 'Transactions', choose the desired report.\n\nSelect the time frame and click 'Download'.\n\nNote: The password to open the report is your PAN number in capital letters.\n\nClick the button below to go directly to the 'Reports' section.\n\nREPORTS"
+    }
+  ],
+  "text": "Where can I get the transaction history\n\nGroww help page: https://groww.in/help/my-account/ma-others/where-can-i-get-the-transaction-history\n\nWhere can I get the transaction history? | Groww\n\nCustomer Support\n\nHelp and Support\n\nWhere can I get the transaction history?\n\nYou can request your transaction history/order history in the 'Reports' section of your profile.\n\nSteps to request your Transaction/Order History:\n\nGo to your profile.\n\nSelect the 'Reports' option.\n\nUnder 'Transactions', choose the desired report.\n\nSelect the time frame and click 'Download'.\n\nNote: The password to open the report is your PAN number in capital letters.\n\nClick the button below to go directly to the 'Reports' section.\n\nREPORTS"
+}

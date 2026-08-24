@@ -1,0 +1,82 @@
+{
+  "source_id": "hdfc-small-cap-direct-growth",
+  "doc_type": "scheme_page",
+  "publisher": "groww",
+  "source_url": "https://groww.in/mutual-funds/hdfc-small-cap-fund-direct-growth",
+  "local_path": "data/raw/schemes/hdfc-small-cap-direct-growth.html",
+  "as_of": "2026-08-21",
+  "retrieved_on": "2026-08-23",
+  "title": "HDFC Small Cap Fund — Direct Growth",
+  "scheme_id": "hdfc-small-cap-direct-growth",
+  "scheme_name": "HDFC Small Cap Fund — Direct Growth",
+  "category": "small-cap",
+  "plan": "direct",
+  "option": "growth",
+  "fact_types": [
+    "benchmark",
+    "exit_load",
+    "expense_ratio",
+    "riskometer",
+    "sip"
+  ],
+  "facts": {
+    "expense_ratio": "0.75",
+    "exit_load": "Exit load of 1% if redeemed within 1 year",
+    "min_sip_investment": 100,
+    "min_investment_amount": 100,
+    "riskometer": "Very High",
+    "benchmark": "BSE 250 SmallCap TRI",
+    "lock_in": null,
+    "lock_in_raw": {
+      "years": null,
+      "months": null,
+      "days": null
+    },
+    "fund_house": "HDFC Mutual Fund",
+    "groww_category": "Small Cap",
+    "description": "The scheme seeks to provide long-term capital appreciation /income by investing predominantly in Small-Cap companies."
+  },
+  "sections": [
+    {
+      "heading": "Expense ratio",
+      "fact_types": [
+        "expense_ratio"
+      ],
+      "text": "Expense ratio: 0.75"
+    },
+    {
+      "heading": "Exit load",
+      "fact_types": [
+        "exit_load"
+      ],
+      "text": "Exit load: Exit load of 1% if redeemed within 1 year"
+    },
+    {
+      "heading": "Minimum SIP",
+      "fact_types": [
+        "sip"
+      ],
+      "text": "Minimum SIP amount: 100"
+    },
+    {
+      "heading": "Riskometer",
+      "fact_types": [
+        "riskometer"
+      ],
+      "text": "Riskometer: Very High"
+    },
+    {
+      "heading": "Benchmark",
+      "fact_types": [
+        "benchmark"
+      ],
+      "text": "Benchmark: BSE 250 SmallCap TRI"
+    },
+    {
+      "heading": "Investment objective",
+      "fact_types": [],
+      "text": "The scheme seeks to provide long-term capital appreciation /income by investing predominantly in Small-Cap companies."
+    }
+  ],
+  "text": "Expense ratio: 0.75\n\nExit load: Exit load of 1% if redeemed within 1 year\n\nMinimum SIP amount: 100\n\nRiskometer: Very High\n\nBenchmark: BSE 250 SmallCap TRI\n\nThe scheme seeks to provide long-term capital appreciation /income by investing predominantly in Small-Cap companies."
+}

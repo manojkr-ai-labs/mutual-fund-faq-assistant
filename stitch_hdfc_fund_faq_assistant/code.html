@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>MF Assistant</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&amp;family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              "colors": {
+                      "secondary": "#51625a",
+                      "on-background": "#0d1f1a",
+                      "background": "#e9fef5",
+                      "outline-variant": "#bccac0",
+                      "tertiary-container": "#717574",
+                      "primary-container": "#00855b",
+                      "on-secondary-container": "#576860",
+                      "tertiary": "#595d5b",
+                      "surface-bright": "#e9fef5",
+                      "on-tertiary-fixed-variant": "#434846",
+                      "surface-tint": "#006c49",
+                      "outline": "#6d7a71",
+                      "on-primary-fixed-variant": "#005236",
+                      "surface": "#e9fef5",
+                      "on-tertiary-fixed": "#181c1b",
+                      "surface-container-lowest": "#ffffff",
+                      "secondary-fixed": "#d4e7dd",
+                      "on-surface": "#0d1f1a",
+                      "on-tertiary-container": "#fafdfb",
+                      "primary-fixed": "#81f9c1",
+                      "tertiary-fixed-dim": "#c4c7c5",
+                      "primary": "#006947",
+                      "on-secondary": "#ffffff",
+                      "inverse-surface": "#22342e",
+                      "secondary-fixed-dim": "#b8cbc1",
+                      "tertiary-fixed": "#e0e3e1",
+                      "on-surface-variant": "#3d4a42",
+                      "surface-container-high": "#d8ede4",
+                      "inverse-primary": "#63dca6",
+                      "surface-container-highest": "#d2e7de",
+                      "error-container": "#ffdad6",
+                      "inverse-on-surface": "#e1f5ec",
+                      "secondary-container": "#d4e7dd",
+                      "surface-dim": "#cadfd6",
+                      "primary-fixed-dim": "#63dca6",
+                      "surface-container": "#def3ea",
+                      "surface-container-low": "#e3f8ef",
+                      "error": "#ba1a1a",
+                      "on-secondary-fixed": "#0f1f19",
+                      "on-tertiary": "#ffffff",
+                      "on-error-container": "#93000a",
+                      "on-secondary-fixed-variant": "#3a4a43",
+                      "on-primary": "#ffffff",
+                      "on-primary-fixed": "#002113",
+                      "on-primary-container": "#f5fff6",
+                      "surface-variant": "#d2e7de",
+                      "on-error": "#ffffff"
+              },
+              "borderRadius": {
+                      "DEFAULT": "0.25rem",
+                      "lg": "0.5rem",
+                      "xl": "0.75rem",
+                      "full": "9999px"
+              },
+              "spacing": {
+                      "gutter": "24px",
+                      "control_height": "44px",
+                      "stack_lg": "32px",
+                      "stack_sm": "8px",
+                      "max_width_content": "720px",
+                      "safe_area_bottom": "24px",
+                      "stack_md": "16px"
+              },
+              "fontFamily": {
+                      "display-lg": [
+                              "Fraunces"
+                      ],
+                      "label-caps": [
+                              "Plus Jakarta Sans"
+                      ],
+                      "headline-sm": [
+                              "Fraunces"
+                      ],
+                      "body-md": [
+                              "Plus Jakarta Sans"
+                      ],
+                      "display-lg-mobile": [
+                              "Fraunces"
+                      ],
+                      "body-lg": [
+                              "Plus Jakarta Sans"
+                      ],
+                      "headline-md": [
+                              "Fraunces"
+                      ]
+              },
+              "fontSize": {
+                      "display-lg": [
+                              "40px",
+                              {
+                                      "lineHeight": "48px",
+                                      "letterSpacing": "-0.02em",
+                                      "fontWeight": "600"
+                              }
+                      ],
+                      "label-caps": [
+                              "12px",
+                              {
+                                      "lineHeight": "16px",
+                                      "letterSpacing": "0.05em",
+                                      "fontWeight": "600"
+                              }
+                      ],
+                      "headline-sm": [
+                              "20px",
+                              {
+                                      "lineHeight": "28px",
+                                      "fontWeight": "500"
+                              }
+                      ],
+                      "body-md": [
+                              "14px",
+                              {
+                                      "lineHeight": "22px",
+                                      "fontWeight": "400"
+                              }
+                      ],
+                      "display-lg-mobile": [
+                              "32px",
+                              {
+                                      "lineHeight": "40px",
+                                      "fontWeight": "600"
+                              }
+                      ],
+                      "body-lg": [
+                              "16px",
+                              {
+                                      "lineHeight": "26px",
+                                      "fontWeight": "400"
+                              }
+                      ],
+                      "headline-md": [
+                              "24px",
+                              {
+                                      "lineHeight": "32px",
+                                      "fontWeight": "500"
+                              }
+                      ]
+              }
+      },
+          },
+        }
+    </script>
+<style>
+        body {
+            background-color: #F4F7F5; /* Sage canvas level 0 */
+            color: #12221C; /* Ink */
+        }
+        .canvas-bg {
+            background-color: #F4F7F5;
+        }
+        .surface-card {
+            background-color: #ffffff;
+            border: 1px solid #D7E2DC;
+        }
+        .composer-shadow {
+            box-shadow: 0px 4px 20px rgba(18, 34, 28, 0.04);
+        }
+        .mint-border-left {
+            border-left: 4px solid #1D4E89; /* Default to factual blue as per spec for assistant, but user prompt says mint left border, I will use factual blue for card examples as they are prompts */
+        }
+        .mint-pill {
+            background-color: #0E9F6E;
+            color: white;
+        }
+    </style>
+</head>
+<body class="canvas-bg font-body-md text-body-md flex flex-col min-h-screen">
+<!-- TopNavBar -->
+<header class="fixed top-0 left-0 w-full z-50 flex justify-between items-center px-gutter bg-surface/90 backdrop-blur-md border-b border-outline-variant h-16">
+<div class="flex items-center gap-3 font-headline-sm text-headline-sm font-semibold text-on-surface">
+<img alt="Factsheet Logo" class="h-8 w-8 object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBdBKI-DGoMAMYJ4kn-_9elEb1s8TOJO_Sl5OT-mfbkjHaSkNJtk_7NAWNwAQ1-8NowutsNzBQVVrjf6Ez6IZe7lXYy1g8zpIARnrho9DEA6ECUoRb5iaSRd372h8aR0G7rwmqcT6JWcqEaS883f9fNSHBNR7NdTBOTGNRyyEQWyWZMVEyvidUS1En3svqM005_2O2ZecD3u6AVOmbhly1mQpZgbWbD2oMzDknU8kgz_K33ZjafPrAHeQ"/>
+            Mutual Fund FAQ Assistant
+        </div>
+<div class="hidden">search hidden</div>
+<div class="mint-pill px-3 py-1 rounded-full font-label-caps text-label-caps uppercase">
+            EDUCATIONAL PURPOSE ONLY
+        </div>
+</header>
+<!-- SideNavBar -->
+<nav class="hidden lg:flex flex-col h-screen fixed left-0 top-0 py-stack_lg px-stack_md bg-surface-container-low border-r border-outline-variant h-full w-64 mt-16">
+<div class="flex-1 mt-8">
+<ul class="space-y-2">
+<li>
+<a class="flex items-center gap-3 px-4 py-3 bg-primary-container text-on-primary-container rounded-lg font-label-caps text-label-caps cursor-pointer active:scale-95 transition-transform hover:bg-surface-container-highest transition-colors" href="#">
+<span class="material-symbols-outlined" data-icon="add" style="font-variation-settings: 'FILL' 0;">add</span>
+                        New Chat
+                    </a>
+</li>
+<li>
+<a class="flex items-center gap-3 px-4 py-3 text-on-surface-variant hover:bg-surface-container-high rounded-lg font-label-caps text-label-caps cursor-pointer active:scale-95 transition-transform hover:bg-surface-container-highest transition-colors" href="#">
+<span class="material-symbols-outlined" data-icon="description" style="font-variation-settings: 'FILL' 0;">description</span>
+                        Guidelines
+                    </a>
+</li>
+<li>
+<a class="flex items-center gap-3 px-4 py-3 text-on-surface-variant hover:bg-surface-container-high rounded-lg font-label-caps text-label-caps cursor-pointer active:scale-95 transition-transform hover:bg-surface-container-highest transition-colors" href="#">
+<span class="material-symbols-outlined" data-icon="history" style="font-variation-settings: 'FILL' 0;">history</span>
+                        History
+                    </a>
+</li>
+</ul>
+</div>
+</nav>
+<!-- Main Content Area -->
+<main class="flex-1 pt-16 lg:pl-64 flex flex-col relative pb-32">
+<div class="flex-1 flex flex-col items-center justify-center px-gutter pt-stack_lg pb-stack_lg max-w-max_width_content mx-auto w-full">
+<h1 class="font-display-lg text-display-lg md:font-display-lg text-on-surface text-center mb-6 max-w-xl">Ask a published scheme fact.</h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant text-center mb-8 max-w-2xl leading-relaxed">
+                This assistant restates expense ratio, exit load, SIP minimum, lock-in, riskometer, and benchmark from Groww pages for five HDFC Direct Growth funds. It does not advise, rank funds, or calculate returns.
+            </p>
+<div class="flex flex-wrap justify-center gap-3 mb-12">
+<span class="text-on-surface-variant font-label-caps text-label-caps uppercase tracking-wider px-2 py-1 rounded-sm bg-surface-container">Large cap</span>
+<span class="text-on-surface-variant font-label-caps text-label-caps uppercase tracking-wider px-2 py-1 rounded-sm bg-surface-container">Mid cap</span>
+<span class="text-on-surface-variant font-label-caps text-label-caps uppercase tracking-wider px-2 py-1 rounded-sm bg-surface-container">Small cap</span>
+<span class="text-on-surface-variant font-label-caps text-label-caps uppercase tracking-wider px-2 py-1 rounded-sm bg-surface-container">Gold ETF FoF</span>
+<span class="text-on-surface-variant font-label-caps text-label-caps uppercase tracking-wider px-2 py-1 rounded-sm bg-surface-container">ELSS tax saver</span>
+</div>
+<div class="w-full">
+<p class="font-label-caps text-label-caps text-on-surface-variant mb-4 uppercase tracking-widest text-left w-full">Try an example</p>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+<!-- Card 1 -->
+<button class="surface-card rounded-[14px] p-4 text-left hover:bg-surface-container-lowest transition-colors cursor-pointer group flex flex-col h-full border-l-4 border-l-[#1D4E89]">
+<p class="font-body-md text-body-md text-on-surface group-hover:text-primary transition-colors">What is the expense ratio of HDFC Large Cap Fund Direct Growth?</p>
+</button>
+<!-- Card 2 -->
+<button class="surface-card rounded-[14px] p-4 text-left hover:bg-surface-container-lowest transition-colors cursor-pointer group flex flex-col h-full border-l-4 border-l-[#1D4E89]">
+<p class="font-body-md text-body-md text-on-surface group-hover:text-primary transition-colors">What is the exit load on HDFC Mid Cap Fund Direct Growth?</p>
+</button>
+<!-- Card 3 -->
+<button class="surface-card rounded-[14px] p-4 text-left hover:bg-surface-container-lowest transition-colors cursor-pointer group flex flex-col h-full border-l-4 border-l-[#1D4E89]">
+<p class="font-body-md text-body-md text-on-surface group-hover:text-primary transition-colors">What is the lock-in period for HDFC ELSS Tax Saver Fund Direct Plan Growth?</p>
+</button>
+</div>
+</div>
+</div>
+<!-- Sticky Composer -->
+<div class="fixed bottom-0 left-0 lg:left-64 right-0 px-gutter pb-safe_area_bottom pt-4 canvas-bg">
+<div class="max-w-max_width_content mx-auto w-full">
+<div class="relative flex items-center">
+<input class="w-full h-control_height bg-white border border-[#D7E2DC] rounded-full pl-6 pr-12 font-body-md text-body-md text-on-surface focus:outline-none focus:ring-1 focus:ring-primary focus:border-primary composer-shadow placeholder-on-surface-variant/50" placeholder="Ask about fund facts..." type="text"/>
+<button class="absolute right-2 top-1/2 -translate-y-1/2 p-2 rounded-full text-primary hover:bg-surface-container transition-colors flex items-center justify-center">
+<span class="material-symbols-outlined" data-icon="arrow_upward" style="font-variation-settings: 'FILL' 1;">arrow_upward</span>
+</button>
+</div>
+<!-- Footer -->
+<footer class="max-w-max_width_content mx-auto w-full py-stack_md text-center opacity-60">
+<p class="font-body-md text-body-md text-on-surface-variant mb-2">Sources: groww.in · History stays in this tab only.</p>
+<div class="flex justify-center gap-4 font-label-caps text-label-caps text-on-surface-variant">
+<a class="hover:text-primary underline transition-all duration-200" href="#">Privacy Policy</a>
+<a class="hover:text-primary underline transition-all duration-200" href="#">Terms of Use</a>
+</div>
+</footer>
+</div>
+</div>
+</main>
+</body></html>

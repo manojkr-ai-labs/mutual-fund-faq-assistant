@@ -1,0 +1,29 @@
+{
+  "source_id": "groww-mutual-funds-hub",
+  "doc_type": "education",
+  "publisher": "groww",
+  "source_url": "https://groww.in/mutual-funds",
+  "local_path": "data/raw/education/mutual-funds-hub.html",
+  "as_of": "2026-08-23",
+  "retrieved_on": "2026-08-23",
+  "title": "Groww Mutual Funds",
+  "scheme_id": null,
+  "scheme_name": null,
+  "category": null,
+  "plan": null,
+  "option": null,
+  "fact_types": [
+    "education"
+  ],
+  "facts": {},
+  "sections": [
+    {
+      "heading": "Education",
+      "fact_types": [
+        "education"
+      ],
+      "text": "Groww Mutual Funds"
+    }
+  ],
+  "text": "Groww Mutual Funds"
+}

@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-plus-jakarta), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-fraunces), ui-serif, Georgia, serif;
+  --color-canvas: #f4f7f5;
+  --color-paper: #ffffff;
+  --color-ink: #12221c;
+  --color-muted: #5c6f68;
+  --color-hairline: #d7e2dc;
+  --color-mint: #0e9f6e;
+  --color-mint-soft: #e6f6ef;
+  --color-amber-rail: #8a5a12;
+  --color-amber-wash: #fbf3e6;
+  --color-info-rail: #1d4e89;
+  --color-info-wash: #eaf2fb;
+  --radius-card: 14px;
+  --shadow-composer: 0px 4px 20px rgba(18, 34, 28, 0.04);
+}
+
+html,
+body {
+  background: var(--color-canvas);
+  color: var(--color-ink);
+}
+
+body {
+  font-family: var(--font-sans);
+  min-height: 100dvh;
+}
+
+::selection {
+  background: var(--color-mint-soft);
+  color: var(--color-ink);
+}
+
+@keyframes pulse-dot {
+  0%,
+  80%,
+  100% {
+    opacity: 0.25;
+    transform: scale(0.85);
+  }
+  40% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.pulse-dot {
+  animation: pulse-dot 1.1s ease-in-out infinite;
+}
+
+.pulse-dot:nth-child(2) {
+  animation-delay: 0.15s;
+}
+
+.pulse-dot:nth-child(3) {
+  animation-delay: 0.3s;
+}

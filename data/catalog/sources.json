@@ -1,0 +1,285 @@
+{
+  "publisher": "groww",
+  "host_allowlist": [
+    "groww.in"
+  ],
+  "retrieved_on": "2026-08-23",
+  "schemes": [
+    {
+      "scheme_id": "hdfc-mid-cap-direct-growth",
+      "scheme_name": "HDFC Mid Cap Fund — Direct Growth",
+      "category": "mid-cap",
+      "source_url": "https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth",
+      "source_title": "Groww — HDFC Mid Cap Fund — Direct Growth",
+      "local_path": "data/raw/schemes/hdfc-mid-cap-direct-growth.html",
+      "publisher": "groww",
+      "doc_type": "scheme_page",
+      "as_of": "2026-08-21",
+      "retrieved_on": "2026-08-23",
+      "facts": {
+        "expense_ratio": "0.75",
+        "exit_load": "Exit load of 1% if redeemed within 1 year.",
+        "min_sip_investment": 100,
+        "riskometer": "Very High",
+        "benchmark": "NIFTY Midcap 150 TRI",
+        "lock_in": {
+          "years": null,
+          "months": null,
+          "days": null
+        }
+      },
+      "coverage": {
+        "expense_ratio": true,
+        "exit_load": true,
+        "min_sip": true,
+        "riskometer": true,
+        "benchmark": true,
+        "lock_in": false
+      }
+    },
+    {
+      "scheme_id": "hdfc-small-cap-direct-growth",
+      "scheme_name": "HDFC Small Cap Fund — Direct Growth",
+      "category": "small-cap",
+      "source_url": "https://groww.in/mutual-funds/hdfc-small-cap-fund-direct-growth",
+      "source_title": "Groww — HDFC Small Cap Fund — Direct Growth",
+      "local_path": "data/raw/schemes/hdfc-small-cap-direct-growth.html",
+      "publisher": "groww",
+      "doc_type": "scheme_page",
+      "as_of": "2026-08-21",
+      "retrieved_on": "2026-08-23",
+      "facts": {
+        "expense_ratio": "0.75",
+        "exit_load": "Exit load of 1% if redeemed within 1 year",
+        "min_sip_investment": 100,
+        "riskometer": "Very High",
+        "benchmark": "BSE 250 SmallCap TRI",
+        "lock_in": {
+          "years": null,
+          "months": null,
+          "days": null
+        }
+      },
+      "coverage": {
+        "expense_ratio": true,
+        "exit_load": true,
+        "min_sip": true,
+        "riskometer": true,
+        "benchmark": true,
+        "lock_in": false
+      }
+    },
+    {
+      "scheme_id": "hdfc-gold-etf-fof-direct-growth",
+      "scheme_name": "HDFC Gold ETF Fund of Fund — Direct Plan Growth",
+      "category": "gold-etf-fof",
+      "source_url": "https://groww.in/mutual-funds/hdfc-gold-etf-fund-of-fund-direct-plan-growth",
+      "source_title": "Groww — HDFC Gold ETF Fund of Fund — Direct Plan Growth",
+      "local_path": "data/raw/schemes/hdfc-gold-etf-fof-direct-growth.html",
+      "publisher": "groww",
+      "doc_type": "scheme_page",
+      "as_of": "2026-08-21",
+      "retrieved_on": "2026-08-23",
+      "facts": {
+        "expense_ratio": "0.2",
+        "exit_load": "Exit load of 1%, if redeemed within 15 days.",
+        "min_sip_investment": 100,
+        "riskometer": "High",
+        "benchmark": "Domestic Price of Gold",
+        "lock_in": {
+          "years": null,
+          "months": null,
+          "days": null
+        }
+      },
+      "coverage": {
+        "expense_ratio": true,
+        "exit_load": true,
+        "min_sip": true,
+        "riskometer": true,
+        "benchmark": true,
+        "lock_in": false
+      }
+    },
+    {
+      "scheme_id": "hdfc-large-cap-direct-growth",
+      "scheme_name": "HDFC Large Cap Fund — Direct Growth",
+      "category": "large-cap",
+      "source_url": "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth",
+      "source_title": "Groww — HDFC Large Cap Fund — Direct Growth",
+      "local_path": "data/raw/schemes/hdfc-large-cap-direct-growth.html",
+      "publisher": "groww",
+      "doc_type": "scheme_page",
+      "as_of": "2026-08-21",
+      "retrieved_on": "2026-08-23",
+      "facts": {
+        "expense_ratio": "1.03",
+        "exit_load": "Exit load of 1% if redeemed within 1 year",
+        "min_sip_investment": 100,
+        "riskometer": "Very High",
+        "benchmark": "NIFTY 100 TRI",
+        "lock_in": {
+          "years": null,
+          "months": null,
+          "days": null
+        }
+      },
+      "coverage": {
+        "expense_ratio": true,
+        "exit_load": true,
+        "min_sip": true,
+        "riskometer": true,
+        "benchmark": true,
+        "lock_in": false
+      }
+    },
+    {
+      "scheme_id": "hdfc-elss-tax-saver-direct-growth",
+      "scheme_name": "HDFC ELSS Tax Saver Fund — Direct Plan Growth",
+      "category": "elss",
+      "source_url": "https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth",
+      "source_title": "Groww — HDFC ELSS Tax Saver Fund — Direct Plan Growth",
+      "local_path": "data/raw/schemes/hdfc-elss-tax-saver-direct-growth.html",
+      "publisher": "groww",
+      "doc_type": "scheme_page",
+      "as_of": "2026-08-21",
+      "retrieved_on": "2026-08-23",
+      "facts": {
+        "expense_ratio": "1.19",
+        "exit_load": "Nil",
+        "min_sip_investment": 500,
+        "riskometer": "Very High",
+        "benchmark": "NIFTY 500 TRI",
+        "lock_in": {
+          "years": 3,
+          "months": 0,
+          "days": 0
+        }
+      },
+      "coverage": {
+        "expense_ratio": true,
+        "exit_load": true,
+        "min_sip": true,
+        "riskometer": true,
+        "benchmark": true,
+        "lock_in": true
+      }
+    }
+  ],
+  "education": [
+    {
+      "id": "groww-types-of-mutual-funds",
+      "title": "Types of Mutual Fund in India",
+      "url": "https://groww.in/p/types-of-mutual-funds",
+      "local_path": "data/raw/education/types-of-mutual-funds.html",
+      "publisher": "groww",
+      "doc_type": "education",
+      "as_of": "2026-08-23",
+      "retrieved_on": "2026-08-23"
+    },
+    {
+      "id": "groww-mutual-funds-hub",
+      "title": "Groww Mutual Funds",
+      "url": "https://groww.in/mutual-funds",
+      "local_path": "data/raw/education/mutual-funds-hub.html",
+      "publisher": "groww",
+      "doc_type": "education",
+      "as_of": "2026-08-23",
+      "retrieved_on": "2026-08-23"
+    }
+  ],
+  "process": [
+    {
+      "id": "groww-capital-gains-report",
+      "title": "How to download capital gain report",
+      "url": "https://groww.in/help/mutual-funds/mf-others/how-to-download-capital-gain-report--50",
+      "local_path": "data/raw/process/how-to-download-capital-gain-report.html",
+      "publisher": "groww",
+      "doc_type": "process",
+      "fact_types": [
+        "process",
+        "capital_gains"
+      ],
+      "as_of": "2026-08-23",
+      "retrieved_on": "2026-08-23"
+    },
+    {
+      "id": "groww-transaction-history",
+      "title": "Where can I get the transaction history",
+      "url": "https://groww.in/help/my-account/ma-others/where-can-i-get-the-transaction-history",
+      "local_path": "data/raw/process/transaction-history.html",
+      "publisher": "groww",
+      "doc_type": "process",
+      "fact_types": [
+        "process",
+        "statement"
+      ],
+      "as_of": "2026-08-23",
+      "retrieved_on": "2026-08-23"
+    },
+    {
+      "id": "groww-elss-tax-statement",
+      "title": "How to download tax statement for ELSS",
+      "url": "https://groww.in/help/mutual-funds/order/how-to-download-tax-statement--for-elss--77",
+      "local_path": "data/raw/process/elss-tax-statement.html",
+      "publisher": "groww",
+      "doc_type": "process",
+      "fact_types": [
+        "process",
+        "elss_statement"
+      ],
+      "as_of": "2026-08-23",
+      "retrieved_on": "2026-08-23"
+    }
+  ],
+  "coverage_checklist": {
+    "expense_ratio": [
+      "hdfc-mid-cap-direct-growth",
+      "hdfc-small-cap-direct-growth",
+      "hdfc-gold-etf-fof-direct-growth",
+      "hdfc-large-cap-direct-growth",
+      "hdfc-elss-tax-saver-direct-growth"
+    ],
+    "exit_load": [
+      "hdfc-mid-cap-direct-growth",
+      "hdfc-small-cap-direct-growth",
+      "hdfc-gold-etf-fof-direct-growth",
+      "hdfc-large-cap-direct-growth",
+      "hdfc-elss-tax-saver-direct-growth"
+    ],
+    "min_sip": [
+      "hdfc-mid-cap-direct-growth",
+      "hdfc-small-cap-direct-growth",
+      "hdfc-gold-etf-fof-direct-growth",
+      "hdfc-large-cap-direct-growth",
+      "hdfc-elss-tax-saver-direct-growth"
+    ],
+    "riskometer": [
+      "hdfc-mid-cap-direct-growth",
+      "hdfc-small-cap-direct-growth",
+      "hdfc-gold-etf-fof-direct-growth",
+      "hdfc-large-cap-direct-growth",
+      "hdfc-elss-tax-saver-direct-growth"
+    ],
+    "benchmark": [
+      "hdfc-mid-cap-direct-growth",
+      "hdfc-small-cap-direct-growth",
+      "hdfc-gold-etf-fof-direct-growth",
+      "hdfc-large-cap-direct-growth",
+      "hdfc-elss-tax-saver-direct-growth"
+    ],
+    "elss_lock_in": [
+      "hdfc-elss-tax-saver-direct-growth"
+    ],
+    "gold_fof_present": true,
+    "process_pages": [
+      "groww-capital-gains-report",
+      "groww-transaction-history",
+      "groww-elss-tax-statement"
+    ],
+    "education_pages": [
+      "groww-types-of-mutual-funds",
+      "groww-mutual-funds-hub"
+    ]
+  }
+}

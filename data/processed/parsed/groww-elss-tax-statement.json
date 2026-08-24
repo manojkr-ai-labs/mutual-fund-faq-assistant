@@ -1,0 +1,31 @@
+{
+  "source_id": "groww-elss-tax-statement",
+  "doc_type": "process",
+  "publisher": "groww",
+  "source_url": "https://groww.in/help/mutual-funds/order/how-to-download-tax-statement--for-elss--77",
+  "local_path": "data/raw/process/elss-tax-statement.html",
+  "as_of": "2026-08-23",
+  "retrieved_on": "2026-08-23",
+  "title": "How to download tax statement for ELSS",
+  "scheme_id": null,
+  "scheme_name": null,
+  "category": null,
+  "plan": null,
+  "option": null,
+  "fact_types": [
+    "process",
+    "elss_statement"
+  ],
+  "facts": {},
+  "sections": [
+    {
+      "heading": "Process",
+      "fact_types": [
+        "process",
+        "elss_statement"
+      ],
+      "text": "How to download tax statement for ELSS\n\nGroww help page: https://groww.in/help/mutual-funds/order/how-to-download-tax-statement--for-elss--77\n\nWhat is a mutual funds ELSS report? | Groww\n\nCustomer Support\n\nHelp and Support\n\nWhat is a mutual funds ELSS report?\n\nThe ELSS (Equity Linked Savings Scheme) report shows your purchases in ELSS mutual funds and the total amount you invested in the selected financial year.\n\nHere's how you can download it:\n\nGo to your profile.\n\nSelect the 'Reports' option.\n\nUnder 'Tax', find 'Mutual Fund - ELSS statement'.\n\nClick on 'Download'.\n\nNote: The password to open the report is your PAN number in capital letters.\n\nREPORTS\n\nCONTACT US"
+    }
+  ],
+  "text": "How to download tax statement for ELSS\n\nGroww help page: https://groww.in/help/mutual-funds/order/how-to-download-tax-statement--for-elss--77\n\nWhat is a mutual funds ELSS report? | Groww\n\nCustomer Support\n\nHelp and Support\n\nWhat is a mutual funds ELSS report?\n\nThe ELSS (Equity Linked Savings Scheme) report shows your purchases in ELSS mutual funds and the total amount you invested in the selected financial year.\n\nHere's how you can download it:\n\nGo to your profile.\n\nSelect the 'Reports' option.\n\nUnder 'Tax', find 'Mutual Fund - ELSS statement'.\n\nClick on 'Download'.\n\nNote: The password to open the report is your PAN number in capital letters.\n\nREPORTS\n\nCONTACT US"
+}
