@@ -1,0 +1,12 @@
+.git
+.venv
+.env
+.railway
+web
+docs
+tests
+scripts
+stitch_hdfc_fund_faq_assistant
+**/__pycache__
+**/.pytest_cache
+*.pyc

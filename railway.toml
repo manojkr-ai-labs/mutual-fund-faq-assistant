@@ -1,5 +1,6 @@
 [build]
-builder = "NIXPACKS"
+builder = "DOCKERFILE"
+dockerfilePath = "Dockerfile"
 watchPatterns = [
   "app/**",
   "data/catalog/**",
@@ -9,6 +10,7 @@ watchPatterns = [
   "railway.toml",
   "nixpacks.toml",
   ".python-version",
+  "Dockerfile",
 ]
 
 [deploy]
