@@ -275,7 +275,7 @@ flowchart LR
 6. **Embed** with a local embedding model; store vectors + metadata together.
 7. **Write** `data/catalog/sources.json` used by the citation allowlist and footer dates.
 
-Re-ingest is a **batch CLI**, not a runtime crawl of Groww on each ask. Last-updated dates come from the catalog, not “today”.
+Re-ingest is a **batch CLI**, not a runtime crawl of Groww on each ask. Last-updated dates come from the catalog, not generation time. `python -m app.corpus.refresh` re-fetches every catalogued `groww.in` URL, verifies that no scheme lost a declared fact, and only then rewrites snapshots, catalog dates, and `chunks.jsonl`. A GitHub Actions workflow (`.github/workflows/refresh-corpus.yml`) runs that CLI daily; a failed verification commits nothing and leaves the last good corpus live.
 
 ### 5.4 Chunk metadata schema
 
@@ -638,7 +638,7 @@ No user database. Groww snapshots, index, and catalog live on disk. Groq is used
 
 ## 15. Known architectural limitations
 
-- Answers are only as current as the **last manual Groww snapshot** (`as_of` in catalog)
+- Answers are only as current as the **last successful Groww refresh** (`as_of` in catalog). A daily GitHub Actions job re-fetches the catalogued pages; a verification failure leaves the previous snapshot live. There is still no live crawl at question time.
 - Five HDFC Direct Growth schemes only; facts are as Groww publishes them
 - Groww copy may be terse or include marketing chrome; ingest must strip CTAs, never turn remainder into advice
 - Hybrid search can still miss a table cell; validator + “not in corpus” is preferred over guessing

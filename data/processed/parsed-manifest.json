@@ -1,5 +1,5 @@
 {
-  "parsed_on": "2026-08-23",
+  "parsed_on": "2026-09-01",
   "publisher": "groww",
   "document_count": 10,
   "scheme_ids": [
@@ -15,7 +15,7 @@
       "doc_type": "scheme_page",
       "scheme_id": "hdfc-mid-cap-direct-growth",
       "source_url": "https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth",
-      "as_of": "2026-08-21",
+      "as_of": "2026-09-01",
       "fact_types": [
         "benchmark",
         "exit_load",
@@ -63,7 +63,7 @@
       "doc_type": "scheme_page",
       "scheme_id": "hdfc-large-cap-direct-growth",
       "source_url": "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth",
-      "as_of": "2026-08-21",
+      "as_of": "2026-09-01",
       "fact_types": [
         "benchmark",
         "exit_load",

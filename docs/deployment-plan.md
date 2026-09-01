@@ -327,8 +327,8 @@ If the UI shows “temporarily unavailable”, the proxy could not reach Railway
 
 - Custom domains and HTTPS certs beyond platform defaults
 - Auth, rate limiting at the edge, or hiding the Railway URL (the UI does not expose it; the URL is still guessable — acceptable for a course demo)
-- CI (GitHub Actions) — optional later: `pytest` on `app/` and `npm run build` in `web/`
-- Re-ingest / live crawl of Groww
+- Broader CI (lint, `npm run build` in `web/`) beyond the daily corpus refresh workflow
+- Live crawl of Groww at question time (batch re-ingest is scheduled separately; see `.github/workflows/refresh-corpus.yml`)
 - Putting both services on one platform
 
 ---

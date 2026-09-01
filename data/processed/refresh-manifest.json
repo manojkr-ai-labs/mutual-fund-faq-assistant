@@ -1,0 +1,125 @@
+{
+  "refreshed_on": "2026-09-01",
+  "publisher": "groww",
+  "source_count": 10,
+  "updated_count": 2,
+  "unchanged_count": 8,
+  "failed_count": 0,
+  "ok": true,
+  "sources": [
+    {
+      "source_id": "hdfc-mid-cap-direct-growth",
+      "doc_type": "scheme_page",
+      "scheme_id": "hdfc-mid-cap-direct-growth",
+      "source_url": "https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth",
+      "local_path": "data/raw/schemes/hdfc-mid-cap-direct-growth.html",
+      "status": "updated",
+      "fetched_bytes": 449467,
+      "changed_facts": [
+        "expense_ratio"
+      ],
+      "error": null
+    },
+    {
+      "source_id": "hdfc-small-cap-direct-growth",
+      "doc_type": "scheme_page",
+      "scheme_id": "hdfc-small-cap-direct-growth",
+      "source_url": "https://groww.in/mutual-funds/hdfc-small-cap-fund-direct-growth",
+      "local_path": "data/raw/schemes/hdfc-small-cap-direct-growth.html",
+      "status": "unchanged",
+      "fetched_bytes": 457161,
+      "changed_facts": [],
+      "error": null
+    },
+    {
+      "source_id": "hdfc-gold-etf-fof-direct-growth",
+      "doc_type": "scheme_page",
+      "scheme_id": "hdfc-gold-etf-fof-direct-growth",
+      "source_url": "https://groww.in/mutual-funds/hdfc-gold-etf-fund-of-fund-direct-plan-growth",
+      "local_path": "data/raw/schemes/hdfc-gold-etf-fof-direct-growth.html",
+      "status": "unchanged",
+      "fetched_bytes": 345927,
+      "changed_facts": [],
+      "error": null
+    },
+    {
+      "source_id": "hdfc-large-cap-direct-growth",
+      "doc_type": "scheme_page",
+      "scheme_id": "hdfc-large-cap-direct-growth",
+      "source_url": "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth",
+      "local_path": "data/raw/schemes/hdfc-large-cap-direct-growth.html",
+      "status": "updated",
+      "fetched_bytes": 413012,
+      "changed_facts": [
+        "expense_ratio"
+      ],
+      "error": null
+    },
+    {
+      "source_id": "hdfc-elss-tax-saver-direct-growth",
+      "doc_type": "scheme_page",
+      "scheme_id": "hdfc-elss-tax-saver-direct-growth",
+      "source_url": "https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth",
+      "local_path": "data/raw/schemes/hdfc-elss-tax-saver-direct-growth.html",
+      "status": "unchanged",
+      "fetched_bytes": 433771,
+      "changed_facts": [],
+      "error": null
+    },
+    {
+      "source_id": "groww-types-of-mutual-funds",
+      "doc_type": "education",
+      "scheme_id": null,
+      "source_url": "https://groww.in/p/types-of-mutual-funds",
+      "local_path": "data/raw/education/types-of-mutual-funds.html",
+      "status": "unchanged",
+      "fetched_bytes": 219934,
+      "changed_facts": [],
+      "error": null
+    },
+    {
+      "source_id": "groww-mutual-funds-hub",
+      "doc_type": "education",
+      "scheme_id": null,
+      "source_url": "https://groww.in/mutual-funds",
+      "local_path": "data/raw/education/mutual-funds-hub.html",
+      "status": "unchanged",
+      "fetched_bytes": 150926,
+      "changed_facts": [],
+      "error": null
+    },
+    {
+      "source_id": "groww-capital-gains-report",
+      "doc_type": "process",
+      "scheme_id": null,
+      "source_url": "https://groww.in/help/mutual-funds/mf-others/how-to-download-capital-gain-report--50",
+      "local_path": "data/raw/process/how-to-download-capital-gain-report.html",
+      "status": "unchanged",
+      "fetched_bytes": 103277,
+      "changed_facts": [],
+      "error": null
+    },
+    {
+      "source_id": "groww-transaction-history",
+      "doc_type": "process",
+      "scheme_id": null,
+      "source_url": "https://groww.in/help/my-account/ma-others/where-can-i-get-the-transaction-history",
+      "local_path": "data/raw/process/transaction-history.html",
+      "status": "unchanged",
+      "fetched_bytes": 112862,
+      "changed_facts": [],
+      "error": null
+    },
+    {
+      "source_id": "groww-elss-tax-statement",
+      "doc_type": "process",
+      "scheme_id": null,
+      "source_url": "https://groww.in/help/mutual-funds/order/how-to-download-tax-statement--for-elss--77",
+      "local_path": "data/raw/process/elss-tax-statement.html",
+      "status": "unchanged",
+      "fetched_bytes": 113568,
+      "changed_facts": [],
+      "error": null
+    }
+  ]
+}

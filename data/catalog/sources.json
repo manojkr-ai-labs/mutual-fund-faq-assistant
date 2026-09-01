@@ -3,7 +3,7 @@
   "host_allowlist": [
     "groww.in"
   ],
-  "retrieved_on": "2026-08-23",
+  "retrieved_on": "2026-09-01",
   "schemes": [
     {
       "scheme_id": "hdfc-mid-cap-direct-growth",
@@ -14,10 +14,10 @@
       "local_path": "data/raw/schemes/hdfc-mid-cap-direct-growth.html",
       "publisher": "groww",
       "doc_type": "scheme_page",
-      "as_of": "2026-08-21",
-      "retrieved_on": "2026-08-23",
+      "as_of": "2026-09-01",
+      "retrieved_on": "2026-09-01",
       "facts": {
-        "expense_ratio": "0.75",
+        "expense_ratio": "0.74",
         "exit_load": "Exit load of 1% if redeemed within 1 year.",
         "min_sip_investment": 100,
         "riskometer": "Very High",
@@ -110,10 +110,10 @@
       "local_path": "data/raw/schemes/hdfc-large-cap-direct-growth.html",
       "publisher": "groww",
       "doc_type": "scheme_page",
-      "as_of": "2026-08-21",
-      "retrieved_on": "2026-08-23",
+      "as_of": "2026-09-01",
+      "retrieved_on": "2026-09-01",
       "facts": {
-        "expense_ratio": "1.03",
+        "expense_ratio": "1.02",
         "exit_load": "Exit load of 1% if redeemed within 1 year",
         "min_sip_investment": 100,
         "riskometer": "Very High",

@@ -315,6 +315,26 @@ After 2.3 `chunks.jsonl` exists. **Optional for v1.** Phase 4 scheme-fact and pr
 4. Never run unfiltered dense k-NN across all 44 chunks — TER/SIP/riskometer strings collide across schemes (see Phase 4)  
 5. CLI: `python -m app.corpus.ingest` runs 2.1 → 2.2 → 2.3 (→ 2.4 if embeddings are enabled)
 
+### 2.5 Scheduled re-ingest
+
+Acquire (`--fetch-missing`) leaves an existing snapshot alone, so it cannot keep the corpus current. Add a separate refresh stage that **re-fetches** every catalogued `groww.in` URL.
+
+1. Implement `app/corpus/refresh.py`:
+   - Fetch every catalogued source (Groww allowlist only; never per user question)
+   - Verify parsed output before writing: scheme pages must keep every fact `sources.json` says they carry; education/process pages must not collapse relative to the last good parse
+   - All-or-nothing: one rejected or failed fetch writes nothing and leaves the last good corpus live
+   - Rewrite a snapshot only when parsed content changed (HTML churn must not produce a daily diff)
+   - On change: update `as_of` / `retrieved_on`, mirrored `facts` / `coverage`, then parse and chunk
+2. CLI: `python -m app.corpus.refresh` (also `python -m app.corpus.ingest --refresh`). `--dry-run` fetches and verifies without writing.
+3. GitHub Actions `.github/workflows/refresh-corpus.yml`: daily cron at 01:30 UTC plus `workflow_dispatch`. Runs refresh, then pytest, then commits `data/` only when the corpus actually changed.
+
+**2.5 exit criteria**
+
+- [ ] `--dry-run` against the live catalog exits 0 and reports `updated` / `unchanged` / `rejected` per source
+- [ ] A page that loses a declared fact (or a fetch that is too small / blocked) does not overwrite snapshots
+- [ ] A second refresh of identical content reports `unchanged` and does not bump `as_of`
+- [ ] Workflow file exists and does not commit on verification failure
+
 ### Phase 2 exit criteria (full ingest)
 
 - [ ] Re-running ingest is idempotent enough to demo (same catalog → `chunks.jsonl`; index if 2.4 is on)  
@@ -592,7 +612,7 @@ Must include:
 1. Setup (Python version, venv, create Groq key, `.env` with `GROQ_API_KEY` / `GROQ_MODEL`, ingest CLI, how to run UI)
 2. Selected AMC (HDFC) and the five schemes
 3. Architecture overview (RAG: ingest Groww snapshots → retrieve → Groq generate → cite `groww.in`; guardrails first)
-4. Known limitations (architecture §15): stale until re-ingest; five schemes only; Groww wording; no guessing; Groq is a formatter; no Compound/web search; not AMC/AMFI/SEBI originals
+4. Known limitations (architecture §15): stale until the next successful refresh; five schemes only; Groww wording; no guessing; Groq is a formatter; no Compound/web search; not AMC/AMFI/SEBI originals
 5. Disclaimer snippet: `Facts-only. No investment advice.`
 
 ### 7.3 Final product checks

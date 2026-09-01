@@ -4,8 +4,8 @@
   "publisher": "groww",
   "source_url": "https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth",
   "local_path": "data/raw/schemes/hdfc-mid-cap-direct-growth.html",
-  "as_of": "2026-08-21",
-  "retrieved_on": "2026-08-23",
+  "as_of": "2026-09-01",
+  "retrieved_on": "2026-09-01",
   "title": "HDFC Mid Cap Fund — Direct Growth",
   "scheme_id": "hdfc-mid-cap-direct-growth",
   "scheme_name": "HDFC Mid Cap Fund — Direct Growth",
@@ -20,7 +20,7 @@
     "sip"
   ],
   "facts": {
-    "expense_ratio": "0.75",
+    "expense_ratio": "0.74",
     "exit_load": "Exit load of 1% if redeemed within 1 year.",
     "min_sip_investment": 100,
     "min_investment_amount": 100,
@@ -42,7 +42,7 @@
       "fact_types": [
         "expense_ratio"
       ],
-      "text": "Expense ratio: 0.75"
+      "text": "Expense ratio: 0.74"
     },
     {
       "heading": "Exit load",
@@ -78,5 +78,5 @@
       "text": "The scheme seeks to provide long-term capital appreciation/income by investing predominantly in Mid-Cap companies."
     }
   ],
-  "text": "Expense ratio: 0.75\n\nExit load: Exit load of 1% if redeemed within 1 year.\n\nMinimum SIP amount: 100\n\nRiskometer: Very High\n\nBenchmark: NIFTY Midcap 150 TRI\n\nThe scheme seeks to provide long-term capital appreciation/income by investing predominantly in Mid-Cap companies."
+  "text": "Expense ratio: 0.74\n\nExit load: Exit load of 1% if redeemed within 1 year.\n\nMinimum SIP amount: 100\n\nRiskometer: Very High\n\nBenchmark: NIFTY Midcap 150 TRI\n\nThe scheme seeks to provide long-term capital appreciation/income by investing predominantly in Mid-Cap companies."
 }

@@ -3,8 +3,11 @@ __pycache__/
 .pytest_cache/
 *.pyc
 .env
+.env.local
 .railway/
+.vercel/
 data/index/
 web/node_modules/
 web/.next/
 web/out/
+refresh.log
